@@ -1,11 +1,4 @@
-# Ignore Python virtual environments
 venv/
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-
-# Ignore environment files
-.env
-*.env
-
+pinners.py

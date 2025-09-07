@@ -1,7 +1,1 @@
-django
-djangorestframework
-django-cors-headers
-celery
-drf-yasg
-django-environ
-mysqlclient
+Django==5.2.4
