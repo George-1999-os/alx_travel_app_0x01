@@ -6,8 +6,8 @@ from drf_yasg import openapi
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="ALX Travel API",
-        default_version='v1',
+        title="ALX Travel App API",
+        default_version="v1",
         description="API documentation for ALX Travel App",
     ),
     public=True,
@@ -15,7 +15,7 @@ schema_view = get_schema_view(
 )
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
-    # path('api/', include('listings.urls')),  # Uncomment when listings/urls.py is ready
+    path("admin/", admin.site.urls),
+    path("listings/", include("listings.urls")),
+    path("swagger/", schema_view.with_ui("swagger", cache_timeout=0), name="schema-swagger-ui"),
 ]
