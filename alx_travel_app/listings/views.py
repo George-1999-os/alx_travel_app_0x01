@@ -1,7 +1,6 @@
-from rest_framework import generics
-from .models import Listing
-from .serializers import ListingSerializer
+from rest_framework.views import APIView
+from rest_framework.response import Response
 
-class ListingListCreateView(generics.ListCreateAPIView):
-    queryset = Listing.objects.all()
-    serializer_class = ListingSerializer
+class ListingsView(APIView):
+    def get(self, request):
+        return Response({"message": "Listings endpoint working"})
