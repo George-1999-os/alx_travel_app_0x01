@@ -1,6 +1,7 @@
-django
+Django
 djangorestframework
 django-cors-headers
-drf-yasg
 celery
+drf-yasg
 mysqlclient
+django-environ
