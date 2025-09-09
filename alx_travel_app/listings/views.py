@@ -1,6 +1,9 @@
-from rest_framework.views import APIView
-from rest_framework.response import Response
+from django.http import JsonResponse
+from django.views import View
 
-class ListingsView(APIView):
-    def get(self, request):
-        return Response({"message": "Listings endpoint working"})
+class ListingsView(View):
+    def get(self, request, *args, **kwargs):
+        data = {
+            "message": "Welcome to the Listings endpoint"
+        }
+        return JsonResponse(data)
