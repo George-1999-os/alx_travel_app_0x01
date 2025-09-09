@@ -8,14 +8,14 @@ schema_view = get_schema_view(
     openapi.Info(
         title="ALX Travel API",
         default_version="v1",
-        description="API documentation",
+        description="API documentation for ALX Travel App",
     ),
     public=True,
     permission_classes=(permissions.AllowAny,),
 )
 
 urlpatterns = [
-    path("admin/", admin.site.urls),
-    path("api/", include("alx_travel_app.listings.urls")),
-    path("swagger/", schema_view.with_ui("swagger", cache_timeout=0), name="schema-swagger-ui"),
+    path('admin/', admin.site.urls),
+    path('listings/', include('listings.urls')),
+    path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
 ]
