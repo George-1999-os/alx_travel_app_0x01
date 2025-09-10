@@ -10,12 +10,14 @@ INSTALLED_APPS = [
     "corsheaders",
     "listings",
 ]
+
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
         "NAME": "db.sqlite3",
     }
 }
+
 ROOT_URLCONF = "urls"
 DEBUG = True
 ALLOWED_HOSTS = []
