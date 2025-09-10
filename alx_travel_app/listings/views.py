@@ -1,9 +1,4 @@
-from django.http import JsonResponse
-from django.views import View
+from django.http import HttpResponse
 
-class ListingsView(View):
-    def get(self, request, *args, **kwargs):
-        data = {
-            "message": "Welcome to the Listings endpoint"
-        }
-        return JsonResponse(data)
+def dummy_view(request):
+    return HttpResponse("Hello")

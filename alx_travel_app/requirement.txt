@@ -3,6 +3,5 @@ djangorestframework
 django-cors-headers
 drf-yasg
 celery
-rabbitmq
 django-environ
 mysqlclient
