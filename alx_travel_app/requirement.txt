@@ -1,2 +1,8 @@
 Django>=4.2
 djangorestframework
+django-cors-headers
+drf-yasg
+celery
+rabbitmq
+django-environ
+mysqlclient
