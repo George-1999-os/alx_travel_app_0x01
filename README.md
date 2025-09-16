@@ -1,16 +1,17 @@
 # ALX Travel App 0x00
 
-This Django project demonstrates **database modeling, serialization, and data seeding** for a travel booking platform.
+This is the ALX Travel App project for the Backend Specialization.  
+It contains a Django project named `alx_travel_app` with a `listings` app.
 
 ## Features
+- `Listing` model for managing travel listings.
+- `Booking` model for reservations.
+- `Review` model for user reviews.
+- Serializers for API endpoints.
+- Seed command to populate the database with sample data.
 
-- **Models:** Listing, Booking, Review with proper relationships.
-- **Serializers:** Convert models to JSON for API responses.
-- **Seeder:** Populate the database with sample data using a management command.
-
-## Setup
-
-1. Install dependencies:
-
-```bash
-pip install -r requirements.txt
+## Tech Stack
+- Python 3
+- Django
+- Django REST Framework
+- drf-yasg for Swagger documentation
