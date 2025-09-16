@@ -1,19 +1,17 @@
 # ALX Travel App 0x00
 
-## Overview
-This project is part of the ALX Backend Django track.  
-It implements database models, serializers, and a database seeding command for the **listings** app.
+This is the ALX Travel App project for the Backend Specialization.  
+It contains a Django project named `alx_travel_app` with a `listings` app.
 
-The project defines:
-- **Listing** – properties available for booking
-- **Booking** – reservations made by users
-- **Review** – user reviews for listings
+## Features
+- `Listing` model for managing travel listings.
+- `Booking` model for reservations.
+- `Review` model for user reviews.
+- Serializers for API endpoints.
+- Seed command to populate the database with sample data.
 
----
-
-## Setup Instructions
-
-1. Clone the repository:
-   ```bash
-   git clone git@github.com:George-1999-os/alx_travel_app_0x00.git
-   cd alx_travel_app_0x00
+## Tech Stack
+- Python 3
+- Django
+- Django REST Framework
+- drf-yasg for Swagger documentation
