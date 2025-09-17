@@ -15,3 +15,4 @@ It contains a Django project named `alx_travel_app` with a `listings` app.
 - Django
 - Django REST Framework
 - drf-yasg for Swagger documentation
+
