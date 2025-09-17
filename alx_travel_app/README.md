@@ -1,3 +1,3 @@
-# Listings App
+# ALX Travel App Listings
 
-This app contains models, serializers, and management commands for the ALX Travel App project.
+This folder contains the Listings app for the ALX Travel App project.
