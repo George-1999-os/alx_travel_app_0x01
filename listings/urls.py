@@ -7,5 +7,5 @@ router.register(r'listings', ListingViewSet)
 router.register(r'bookings', BookingViewSet)
 
 urlpatterns = [
-    path('', include(router.urls)),
+    path('api/', include(router.urls)),
 ]
