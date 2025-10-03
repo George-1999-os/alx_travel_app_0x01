@@ -1,31 +1,4 @@
-# Python
+venv/
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-*.log
-*.pot
-*.mo
-*.egg-info/
-*.sqlite3
-
-# Virtual environment
-venv/
-.env
-
-# Django
-db.sqlite3
-media/
-staticfiles/
-*.db
-
-# IDEs / Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Custom
 pinners.py
